@@ -1,51 +1,76 @@
+<!--	Major Project Submission from TeamThree
+		Students: James Hutchinson, Rachelle Mulder, Treasa Finn and Bethel Samson Tadesse
+		Student No: 14119633, 
+		Date: 27 November 2014
+-->
 
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!DOCTYPE html>
+
+<!--
+		[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]
+		[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]
+		[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]
+		[if gt IE 8]> <html class="no-js" lang="en"> <![endif]
+-->
+
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    	<meta charset="UTF-8" />
+   		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   		<meta name="robots" content="index, follow">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Index</title>
-    <meta name="robots" content="index, follow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Súillin Opticians</title>
+    	
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="bjqs.css">
+    	<link rel="stylesheet" type="text/css" href="style.css" />
+    	
+    	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    	<script src="js/bjqs-1.3.min.js"></script>
+    	
+    <style>
+body 
+{
+	background: #D7CAD0;
+	color: #fff;
+	font-family: Ubuntu, Verdana, Tahoma, serif;
+}
 
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="css/1140.css" />
-    <style type="text/css">
+
+h1
+{
+	margin: 20px 0 30px;
+	text-align:center;
+}
+
+
+a, h2
+{
+	color: #CEB8C4;
+	margin: 14px 0;
+}
+
+
+.examples .row p
+{
+	background:  #fff;
+	border-radius: 4px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+    color:#777;
+    padding:4px 0;
+    text-align:center;
+}
+
 	
-		body {
-			background: #D7CAD0;
-			color: #fff;
-			font-family: Ubuntu, Verdana, Tahoma, serif;
-		}
-		h1 {
-			margin: 20px 0 30px;
-			text-align:center;
-		}
-		a, h2 {
-			color: #CEB8C4;
-			margin: 14px 0;
-		}
-        .examples .row p {
-			background:  #fff;
-			-webkit-border-radius: 4px;
-			-moz-border-radius: 4px;
-			border-radius: 4px;
-            color:#777;
-            padding:4px 0;
-            text-align:center;
-        }
+.social
+{
+	float:right;
+	padding:4px;
+	height:50%
+	width:auto;
+}
 		
-		.social {
-			float:right;
-			padding:4px;
-			height:50%
-			width:auto;
-		}
-				
     </style>
 	
 </head>
@@ -63,12 +88,30 @@
         </div>
 		
         <div class="row">
-            <div class="column12"><p>col12</p></div>
+            <div class="column12"><p>Something here?</p></div>
         </div>
 		
         <div class="row">
-		   <div class="column12"><img src="images/Product02a.jpg" alt="" height="auto" width="100%">
-        </div>	
+			<div class="column12">
+		   		<ul class="bjqs">
+          			<li><img src="img/banner01.jpg" title="Automatically generated caption"></li>
+          			<li><img src="img/banner02.jpg" title="Automatically generated caption"></li>
+          			<li><img src="img/banner03.jpg" title="Automatically generated caption"></li>
+        		</ul>
+        	</div>	
+		
+		<script class="secret-source">
+        jQuery(document).ready(function($) {
+
+          $('#banner-fade').bjqs({
+            height      : 320,
+            width       : 620,
+            responsive  : true
+          });
+
+        });
+      	</script>
+		
 		
 		<p class="clear"></p>
 		
