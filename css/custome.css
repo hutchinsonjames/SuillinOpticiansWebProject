@@ -1,0 +1,186 @@
+.white-smoke{
+	background-color:whitesmoke;
+}
+.white{
+	background-color:white;
+}
+#header{
+	display: block;
+	overflow: auto;
+	background: -webkit-linear-gradient(top, #D7CAD0 0%,#fff 100%);				
+}
+
+#mainlist-footer{
+	background: -webkit-linear-gradient(top, #D7CAD0 0%,#FFFFFF 100%);
+}
+.nav-link{
+	margin-bottom: 0px;
+	background-color: #FFF;
+}
+.align-right{
+	text-align: right;
+}
+.x-large{
+	font-size: x-large;
+}
+.large{
+	font-size: large;
+}
+.gradient-background{
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top,  #FAFAFA 0%, #cccccc 100%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  #FAFAFA 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+}
+.nav-tabs li.active a{
+	background-color: #eee;
+	border-bottom: none;
+}
+.nav-tabs li a{
+	border: 1px solid #eee;
+	border-bottom: none;
+}
+.nav-tabs li{
+	float: none;	
+}
+#phone {
+    margin-right: 1em;
+}
+#main {
+	margin-left: auto;
+	margin-right: auto;
+}	
+#mainlist h2 {
+	padding: 0.4em;
+}
+.auto-block p {
+	padding: 1em;
+}
+.auto-block button {
+	margin-left: 1em;
+}
+
+#modal{
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+	background-color: #000000;
+	position: fixed;
+	z-index: 9999;
+}
+
+#signin-form-container{
+	position: fixed;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 99999;
+}
+#signin-form-div{
+	padding: 2em;
+	overflow: auto;
+	display: block;
+	background-color: #FFFFFF;
+	width: 29%;
+	margin-left: auto;
+	margin-right: auto;
+}
+body p{
+	color: #666666;	
+}
+
+#form-message{
+	padding: 1em;	
+}
+
+.required:after{
+	content: '*';
+}
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+	#main {
+		width: 98%;
+	}	
+	.navbar-form{
+		width: 98%;
+		margin-left: auto;
+		margin-right: auto;
+	}		
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#main {
+		width: 90%;
+	}	
+	.navbar-form{
+		width: 98%;
+		margin-left: auto;
+		margin-right: auto;		
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	#main {
+		width: 85%;
+	}
+	.section-image{
+		float: left;
+		padding: 1em;		
+	}
+	.auto-block{
+		display: block;
+		overflow: auto;		
+	}
+	#form-message{
+		float: left;
+		width: 40%;		
+	}	
+	#fname, #lname, #email, #query{
+		width: 95%;
+	}
+}
+
+@media only screen and (min-width: 960px) {	
+	.left{
+		float: left;
+	}
+	.right{
+		float: right;
+	}
+	#logo{
+		width:30%;
+	}
+	#navigation-bar-phone{
+		width:69%;
+	}
+	#navigation-bar ul{
+		position: relative;
+		list-style: none;
+		text-align: center;
+	}
+	#navigation-bar ul li{
+		margin-bottom: 1px;
+		margin-right: 1em;
+		display: inline;
+		float: left;
+		width: 17%;
+	}
+	#main {
+		width: 80%;
+	}
+	#mainlist > div {
+		width: 27%;
+		float: left;
+		margin-right: 2em;
+	}
+	#form-message{
+		float: left;
+		width: 40%;		
+	}
+
+	#fname, #lname, #email, #query{
+		width: 95%;
+	}			
+}

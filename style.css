@@ -298,7 +298,125 @@ img {height:auto;}
 
 
 
+.aboutbody{
+				background: #D7CAD0;
+				color: #fff;
+				font-family: Ubuntu, Verdana, Tahoma, serif;
+			}
+			h1 {
+				margin: 20px 0 30px;
+				text-align: center;
+			}
+			a, h2 {
+				color: #CEB8C4;
+				margin: 14px 0;
+			}
+			.examples .row p {
+				background: #fff;
+				-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+				border-radius: 4px;
+				color: #777;
+				padding: 4px 0;
+				text-align: center;
+			}
 
+			.social {
+				float: right;
+				padding: 4px;
+				height: 50%;
+				width :auto;
+			}
+			#mainlist div {
+				width: 30%;
+				float: left;
+				margin-right: 2em;
+			}
+			.section-image{
+				width:336px;
+			}
+			.a-raw{
+				width: 1120px;
+			}
+			.white-smoke{
+				background-color:whitesmoke;
+			}
+			.white{
+				background-color:white;
+			}
+			#header{
+				display: block;
+				overflow: auto;
+				background: -webkit-linear-gradient(top, #D7CAD0 0%,#fff 100%);				
+			}
+			#main {
+				width: 80%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.left{
+				float: left;
+			}
+			.right{
+				float: right;
+			}
+			#logo{
+				width:30%;
+			}
+			#navigation-bar-phone{
+				width:69%;
+			}
+			#navigation-bar ul{
+				position: relative;
+				list-style: none;
+				text-align: center;
+			}
+			#navigation-bar ul li{
+				margin-bottom: 1px;
+				margin-right: 1em;
+				display: inline;
+				float: left;
+				width: 17%;
+			}
+			#mainlist-footer{
+				background: -webkit-linear-gradient(top, #D7CAD0 0%,#FFFFFF 100%);
+			}
+			.nav-link{
+				margin-bottom: 0px;
+				background-color: #FFF;
+			}
+			.align-right{
+				text-align: right;
+			}
+			.x-large{
+				font-size: x-large;
+			}
+			.large{
+				font-size: large;
+			}
+			.gradient-background{
+				background: #eeeeee; /* Old browsers */
+				background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+				background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+			}
+			.nav-tabs li.active a{
+				background-color: #eee;
+				border-bottom: none;
+			}
+			.nav-tabs li a{
+				border: 1px solid #eee;
+				border-bottom: none;
+			}	
+			.audiodiv{
+			float:right;
+			height:34px;
+			width:70%;
+			}
+			.videodiv{
+			float:left;
+			}
+		
+			
 
 #container{
 	max-width:620px;

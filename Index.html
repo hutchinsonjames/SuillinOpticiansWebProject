@@ -1,134 +1,173 @@
 <!--	Major Project Submission from TeamThree
-		Students: James Hutchinson, Rachelle Mulder, Treasa Finn and Bethel Samson Tadesse
-		Student No: 14119633, 
-		Date: 27 November 2014
+Students: James Hutchinson, Rachelle Mulder, Treasa Finn and Bethel Samson Tadesse
+Student No: 14119633,
+Date: 27 November 2014
 -->
 
 <!DOCTYPE html>
 
 <!--
-		[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]
-		[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]
-		[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]
-		[if gt IE 8]> <html class="no-js" lang="en"> <![endif]
+[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]
+[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]
+[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]
+[if gt IE 8]> <html class="no-js" lang="en"> <![endif]
 -->
 
 <head>
-    	<meta charset="UTF-8" />
-   		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-   		<meta name="robots" content="index, follow">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="robots" content="index, follow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    	<title>Súillin Opticians</title>
-    	
-		<link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-		<link rel="stylesheet" href="bjqs.css">
-    	<link rel="stylesheet" type="text/css" href="style.css" />
-    	
-    	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-    	<script src="js/bjqs-1.3.min.js"></script>
-    	
-    <style>
-body 
-{
-	background: #D7CAD0;
-	color: #fff;
-	font-family: Ubuntu, Verdana, Tahoma, serif;
-}
+	<title>Súillin Opticians</title>
 
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
-h1
-{
-	margin: 20px 0 30px;
-	text-align:center;
-}
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="bjqs.css">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="css/custome.css" />
 
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="js/bjqs-1.3.min.js"></script>
 
-a, h2
-{
-	color: #CEB8C4;
-	margin: 14px 0;
-}
+	<style>
+		body {
+			background: #D7CAD0;
+			color: #fff;
+			font-family: Ubuntu, Verdana, Tahoma, serif;
+		}
 
+		h1 {
+			margin: 20px 0 30px;
+			text-align: center;
+		}
 
-.examples .row p
-{
-	background:  #fff;
-	border-radius: 4px;
-		-webkit-border-radius: 4px;
-		-moz-border-radius: 4px;
-    color:#777;
-    padding:4px 0;
-    text-align:center;
-}
+		a, h2 {
+			color: #CEB8C4;
+			margin: 14px 0;
+		}
 
-	
-.social
-{
-	float:right;
-	padding:4px;
-	height:50%
-	width:auto;
-}
-		
-    </style>
-	
+		.examples .row p {
+			background: #fff;
+			border-radius: 4px;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			color: #777;
+			padding: 4px 0;
+			text-align: center;
+		}
+
+		.social {
+			float: right;
+			padding: 4px;
+			height: 50%; 
+			width : auto;
+		}
+
+	</style>
+
 </head>
 <body>
-    <div class="container12 examples">
-        <div class="row">
-            <div class="column12"></div>
-        </div>
-		<div class="row">
-            <div class="column4"><img src="images/logo.png" alt="" width="auto"/></div>
-            <div class="column2"><a href="index.html"><p>Home</p></a></div>
-            <div class="column2"><a href="products.html"><p>Products</p></a></div>
-            <div class="column2"><a href="about.html"><p>About Us</p></a></div>
-            <div class="column2"><a href="contact.html"><p>Contact</p></a></div>
-        </div>
-		
-        <div class="row">
-            <div class="column12"><p>Something here?</p></div>
-        </div>
-		
-        <div class="row">
+	<div id="main">
+		<div id="header">
+			<div id="logo" class="left">
+				<img src="images/logo.png" alt="" width="330px"/>
+			</div>
+			<div id="navigation-bar-phone" class="right">
+				<div id="phone">
+					<span class="align-right x-large">
+						<p>
+							800-888-888-8888
+						</p></span>
+					<span class="align-right large">
+						<p>
+							Call now
+						</p></span>
+				</div>
+				<div id="navigation-bar">
+					<ul class="nav nav-tabs">
+						<li class="active">
+							<a href="#" class="nav-link">Home</a>
+						</li>
+						<li>
+							<a href="products.html" class="nav-link">Products</a>
+						</li>
+						<li>
+							<a href="about.html" class="nav-link">About Us</a>
+						</li>
+						<li>
+							<a href="contact.html" class="nav-link">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="body">
+			<div class="row">
+				<div class="column12"></div>
+			</div>			
 			<div class="column12">
-		   		<ul class="bjqs">
-          			<li><img src="img/banner01.jpg" title="Automatically generated caption"></li>
-          			<li><img src="img/banner02.jpg" title="Automatically generated caption"></li>
-          			<li><img src="img/banner03.jpg" title="Automatically generated caption"></li>
-        		</ul>
-        	</div>	
-		
-		<script class="secret-source">
-        jQuery(document).ready(function($) {
+				<p>
+					Something here?
+				</p>
+			</div>
 
-          $('#banner-fade').bjqs({
-            height      : 320,
-            width       : 620,
-            responsive  : true
-          });
+			<div class="column12">
+				<ul class="bjqs">
+					<li><img src="img/banner01.jpg" title="Automatically generated caption">
+					</li>
+					<li><img src="img/banner02.jpg" title="Automatically generated caption">
+					</li>
+					<li><img src="img/banner03.jpg" title="Automatically generated caption">
+					</li>
+				</ul>
+			</div>
 
-        });
-      	</script>
-		
-		
-		<p class="clear"></p>
-		
-      <div class="row">
-            <div class="column12"><img class="social" src="images\Facebook.png" alt="">
-            <img class="social" src="images\Google +.png" alt="">
-			<img class="social" src="images\Instagram.png" alt="">
-			<img class="social" src="images\LinkedIn.png" alt="">
-			<img class="social" src="images\Pinterest.png" alt="">
-			<img class="social" src="images\Twitter.png" alt=""></div>
-        </div>
-		
-        <div class="row">
-            <div class="column12"><p>col12</p></div>
-        </div>
-    </div>
+			<script class="secret-source">
+				jQuery(document).ready(function($) {
 
-	
+					$('#banner-fade').bjqs({
+						height : 320,
+						width : 620,
+						responsive : true
+					});
+
+				});
+			</script>
+
+			<p class="clear"></p>
+
+			<div class="row">
+				<div class="column12"></div>
+			</div>
+					
+			<div class="column12">
+				<p>
+					col12
+				</p>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="column12 no-margine">
+				<img class="social" src="images\Facebook.png" alt="">
+				<img class="social" src="images\Google +.png" alt="">
+				<img class="social" src="images\Instagram.png" alt="">
+				<img class="social" src="images\LinkedIn.png" alt="">
+				<img class="social" src="images\Pinterest.png" alt="">
+				<img class="social" src="images\Twitter.png" alt="">
+			</div>
+			<div class="column12 no-margine copyright">
+				<p>
+					Copyright (R)
+				</p>
+			</div>			
+		</div>
+	</div>
+
 </body>
-</html>

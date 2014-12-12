@@ -1,107 +1,249 @@
-<!doctype html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!doctype html> <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+	<!--<![endif]-->
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>contact</title>
-    <meta name="robots" content="index, follow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>contact</title>
+		<meta name="robots" content="index, follow">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/1140.css">
-    <style type="text/css">
-		body {
-			background: #D7CAD0;
-			color: #fff;
-			font-family: Ubuntu, Verdana, Tahoma, serif;
-		}
-		h1 {
-			margin: 20px 0 30px;
-			text-align:center;
-		}
-		a, h2 {
-			color: #fff;
-			margin: 14px 0;
-		}
-        .examples .row p {
-			background: #fff;
-			-webkit-border-radius: 4px;
-			-moz-border-radius: 4px;
-			border-radius: 4px;
-            color:#777;
-            padding:4px 0;
-            text-align:center;
-        }
-		
-	    #map-canvas {
-			width: auto;
-			height: 400px;
-			background-color: #CCC;
-			border:5px solid #C1B1BD;
-		}
-		
-		.social {
-			float:right;
-			padding:4px;
-			height:50%
-			width:auto;
-		}
-		
-	</style>
-	<script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script>
-      function initialize() {
-        var mapCanvas = document.getElementById('map-canvas');
-        var mapOptions = {
-          center: new google.maps.LatLng(53.340886, -6.258579),
-		  zoom: 15,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-	
-</head>
-<body>
-    <div class="container12 examples">
-        <div class="row">
-            <div class="column12"></div>
-        </div>
-		<div class="row">
-            <div class="column4"><img src="images/logo.png" alt="" width="auto"/></div>
-            <div class="column2"><a href="index.html"><p>Home</p></a></div>
-            <div class="column2"><a href="products.html"><p>Products</p></a></div>
-            <div class="column2"><a href="about.html"><p>About Us</p></a></div>
-            <div class="column2"><a href="contact.html"><p>Contact</p></a></div>
-        </div>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
-        <div class="row">
-            <div class="column12"><p>col12</p></div>
-        </div>	
-		
-        <div class="row">
-            <div class="column6"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-            <div class="column6"><p id="map-canvas"></p></div>
-        </div>
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/1140.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" type="text/css" href="css/custome.css" />
 
-      <div class="row">
-            <div class="column12"><img class="social" src="images\Facebook.png" alt="">
-            <img class="social" src="images\Google +.png" alt="">
-			<img class="social" src="images\Instagram.png" alt="">
-			<img class="social" src="images\LinkedIn.png" alt="">
-			<img class="social" src="images\Pinterest.png" alt="">
-			<img class="social" src="images\Twitter.png" alt=""></div>
-        </div>
-		
-        <div class="row">
-            <div class="column12"><p>col12</p></div>
-        </div>
-    </div>
+		<style type="text/css">
+			body {
+				background: #D7CAD0;
+				font-family: Ubuntu, Verdana, Tahoma, serif;
+			}
+			h1 {
+				margin: 20px 0 30px;
+				text-align: center;
+			}
+			a, h2 {
+				margin: 14px 0;
+			}
+			.examples .row p {
+				background: #fff;
+				-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+				border-radius: 4px;
+				color: #777;
+				padding: 4px 0;
+				text-align: center;
+			}
 
-</body>
+			#map-canvas {
+				width: auto;
+				height: 300px;
+				background-color: #CCC;
+				border: 5px solid #C1B1BD;
+			}
+
+			.social {
+				float: right;
+				padding: 4px;
+				height: 50%;
+				width: auto;
+			}
+			#form_border {
+				background: #fff;
+				-webkit-border-radius: 4px;
+				-moz-border-radius: 4px;
+				border-radius: 4px;
+				color: #777;
+			}
+			#body {
+				display: block;
+				overflow: auto;
+			}
+		</style>
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script>
+			function initialize() {
+				var mapCanvas = document.getElementById('map-canvas');
+				var mapOptions = {
+					center : new google.maps.LatLng(53.340886, -6.258579),
+					zoom : 15,
+					mapTypeId : google.maps.MapTypeId.ROADMAP
+				}
+				var map = new google.maps.Map(mapCanvas, mapOptions)
+			}
+
+
+			google.maps.event.addDomListener(window, 'load', initialize);
+			
+			function validateForm(){
+				
+				var fNameElement= document.getElementById("fname"),
+					lNameElement= document.getElementById("lname"),
+					emailElement= document.getElementById("email"),
+					queryElement= document.getElementById("query");
+					
+				var fName=fNameElement.value,
+					lName=lNameElement.value,
+					email=emailElement.value,
+					query=queryElement.value;
+				
+				var isValid= true;
+				
+				if(fName == null || fName == ""){
+					fNameElement.style.backgroundColor="rgba(255, 174, 0, 0.46)";
+					fNameElement.placeholder="Please enter first name";	
+					isValid= false;		
+				}else{
+					fNameElement.style.backgroundColor="rgba(255, 255, 255, 0.46)";
+				}
+				
+				if(lName == null || lName == ""){
+					lNameElement.style.backgroundColor="rgba(255, 174, 0, 0.46)";
+					lNameElement.placeholder="Please enter last name";	
+					isValid= false;				
+				}else{
+					lNameElement.style.backgroundColor="rgba(255, 255, 255, 0.46)";
+				}
+
+				if(email == null || email == ""){
+					emailElement.style.backgroundColor="rgba(255, 174, 0, 0.46)";
+					emailElement.placeholder="Please enter your email";	
+					isValid= false;				
+				}else{
+					var isValidEmail = validateEmail(email);
+					if(isValidEmail){
+						emailElement.style.backgroundColor="rgba(255, 255, 255, 0.46)";
+					} else {
+						emailElement.style.backgroundColor="rgba(255, 174, 0, 0.46)";
+						emailElement.value = "";
+						emailElement.value = email + " is not valid email.";	
+						isValid= false;								
+					}
+				}
+				
+				if(query == null || query == ""){
+					queryElement.style.backgroundColor="rgba(255, 174, 0, 0.46)";
+					queryElement.placeholder="Please enter your message";
+					isValid= false;				
+				}else{
+					queryElement.style.backgroundColor="rgba(255, 255, 255, 0.46)";
+				}
+				
+				if(isValid){
+					alert("Thank your " + fName + " " + lName + ". Your message has been sent!");
+				}				
+			}
+			
+			function validateEmail(email) { 
+			    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+			    return re.test(email);
+			}			
+		</script>
+		
+	</head>
+	<body>
+
+		<div id="main">
+			<div id="header">
+				<div id="logo" class="left">
+					<img src="images/logo.png" alt="" width="330px"/>
+				</div>
+				<div id="navigation-bar-phone" class="right">
+					<div id="phone">
+						<span class="align-right x-large">
+							<p>
+								800-888-888-8888
+							</p></span>
+						<span class="align-right large">
+							<p>
+								Call now
+							</p></span>
+					</div>
+					<div id="navigation-bar">
+						<ul class="nav nav-tabs">
+							<li>
+								<a href="Index.html" class="nav-link">Home</a>
+							</li>
+							<li>
+								<a href="products.html" class="nav-link">Products</a>
+							</li>
+							<li>
+								<a href="about.html" class="nav-link">About Us</a>
+							</li>
+							<li class="active">
+								<a href="#" class="nav-link">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="body" class="gradient-background">
+				<div id="form-container">
+					<div id="form-message">
+						<p>We would love to hear from you.  You can visit our store to discuss your eye health and view our wide range of products</p>
+						<br/>
+						<p>Call us to book an appointment</p>
+						<br />
+						<p>Telephone: +3533 (0) 123 4567</p>
+						<br />
+						<p>email: info@suillinopticians.ie</p>
+						<br />
+						<p>You can also make contact by filling in the form below.  We will contact you in relation to your queries.</p> 
+						<br />
+					</div>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<div class="required">
+								<label for="fname">First Name:</label>
+								<input type="text" id="fname" name="fname" class="form-control form-inputs" placeholder="First Name">
+							</div>
+							<div class="required">
+								<label for="lname">Last Name:</label>
+								<input type="text" id="lname" name="lname" class="form-control form-inputs" placeholder="Last Name">
+							</div>
+							<div class="required">
+								<label for="email">Email:</label>
+								<input type="text" id="email" name="email" class="form-control form-inputs" placeholder="Email Address">
+							</div>
+							<div class="required">
+								<label for="query">Your Query:</label>
+								<textarea id="query" name="query" class="form-control form-inputs" placeholder="Your message here." rows="5"></textarea>
+							</div>
+							<input type="button" value="Submit" class="btn btn-default" onclick="javascript:validateForm(); return false;"/>
+							<div> * means required field</div>							
+						</div>
+					</form>
+				</div>
+				<div class="column6 no-margine">
+					<p id="map-canvas"></p>
+				</div>
+			</div>
+			<div id="footer">
+				<div class="column12 no-margine">
+					<img class="social" src="images\Facebook.png" alt="">
+					<img class="social" src="images\Google +.png" alt="">
+					<img class="social" src="images\Instagram.png" alt="">
+					<img class="social" src="images\LinkedIn.png" alt="">
+					<img class="social" src="images\Pinterest.png" alt="">
+					<img class="social" src="images\Twitter.png" alt="">
+				</div>
+				<div class="column12 no-margine copyright">
+					<p>
+						Copyright (R)
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
